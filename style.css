@@ -1,0 +1,21 @@
+/*começar todas as páginas com box-sizing: border-box. Que faz com que as caixas quando
+ aumentada de tamanho, soma-se junto a borda*/
+* {
+    box-sizing: border-box;
+}
+
+/*  root é o elemento mais alto dentro da hierarquia HTML*/
+:root {
+    --primary-color: #0B498F;
+    --gray-100: #C4C4C4;
+    --gray-200: #00000080;
+    --black: #000;
+    --white: #fff;
+
+    /* propriedade para deixar a fonte um pouco mais definida no google chrome*/
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+}
